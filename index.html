@@ -8,17 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Cheban Oleksandra</title>
 </head>
 
 <body>
-    <nav>
+    <nav data-aos="fade-down">
         <a href="#aboutMe">About Me</a>
         <a href="#myHobbies">My Hobbies</a>
         <a href="#contactMe">Contact Me</a>
     </nav>
     <section id="aboutMe">
-        <div class="inlineWrapper">
+        <div class="inlineWrapper" data-aos="fade-right">
             <img src="./src/assets/images/picture.jpg" alt="Portrait" class="squarePic">
             <div id="nameDiv">
                 <h1>CHEBAN OLEKSANDRA</h1>
@@ -30,15 +31,15 @@
                     loading="lazy"></iframe>
             </div>
         </div>
-        <p>I am a 16 y. o. girl from Ukraine. I love writing code and aspire to be a Software Developer. I am currently
+        <p data-aos="fade-up">I am a 16 y. o. girl from Ukraine. I love writing code and aspire to be a Software Developer. I am currently
             a TOP student and I am very proud of it. I see my future in IT. IT STEP Academy and IT STEP College mean a
             lot to me, as both of them gave me the opportunity to learn more about beloved programming. Currently, my
             favorite language among those I studied is C++. As a person, I am very caring, thoughtful and responsible.
             Also, I am hardworking and always ready to help the others. My number-one goal is to be remembered as a
             great human.</p>
-        <img src="./src/assets/images/mirrorball.png" alt="mirrorball" id="mirrorball">
+        <img src="./src/assets/images/mirrorball.png" alt="mirrorball" id="mirrorball" data-aos="fade-left">
     </section>
-    <section id="myHobbies">
+    <section id="myHobbies" data-aos="slide-up">
         <h1>MY HOBBIES</h1>
         <h2>I wanna be defined by the things that I love</h2>
         <div class="inlineWrapper">
@@ -65,7 +66,7 @@
             </div>
         </div>
     </section>
-    <section id="contactMe">
+    <section id="contactMe" data-aos="slide-up">
         <h1 id="contactsTitle">CONTACT ME</h1>
         <form action="#">
             <label for="username" class="formText">Name*
@@ -78,16 +79,22 @@
                 <input type="tel" class="formInput" id="phoneNumber" required>
             </label>
             <label for="message" class="formText">Message*
-                <textarea name="message" id="message"
-                    required></textarea>
+                <textarea name="message" id="message" required></textarea>
             </label>
             <button class="submitButton">Submit</button>
         </form>
-        <img src="./src/assets/images/bow.png" alt="bow" id="bow">
     </section>
+    <img src="./src/assets/images/bow.png" alt="bow" id="bow" data-aos="fade-right">
     <footer>
         <p id="footerP">Cheban Oleksandra ©2024</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+
+    </script>
 </body>
 
 </html>
