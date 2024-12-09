@@ -1,0 +1,148 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    #aboutMe {
+        width: 700px;
+        margin: 100px auto;
+        margin-top: 100px;
+    }
+
+    #aboutMeP {
+        width: 600px;
+    }
+
+    .squarePic {
+        width: 180px;
+        height: 180px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    #nameDiv {
+        display: block;
+    }
+    #mirrorball
+    {
+        display: none;
+    }
+    #bow
+    {
+        display: none;
+    }
+    #myHobbies
+    {
+        width: 700px;
+    }
+    #contactMe {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #braceletsDiv
+    {
+        width: 470px;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+    #braceletsTitle
+    {
+        width: 470px;
+    }
+    body{
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #mirrorball {
+        width: 400px;
+        height: 400px;
+        top: 200px;
+        right: -250px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    #aboutMe {
+        width: 900px;
+    }
+
+    #aboutMeP {
+        width: 800px;
+    }
+
+    .squarePic {
+        width: 200px;
+        height: 200px;
+    }
+
+    #myHobbies {
+        width: 900px;
+    }
+
+    #braceletsDiv {
+        margin-right: 50px;
+        width: 650px;
+        margin-left: 0;
+    }
+
+    #braceletsTitle {
+        width: 650px;
+    }
+
+    #contactMe {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #bow {
+        height: 400px;
+        top: 1450px;
+        left: -100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #aboutMe {
+        width: 700px;
+        margin: 50px auto;
+    }
+
+    #aboutMeP {
+        width: 600px;
+    }
+
+    .squarePic {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 767px) {
+    #mirrorball {
+        display: none;
+    }
+
+    #aboutMe {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .squarePic {
+        width: 150px;
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
