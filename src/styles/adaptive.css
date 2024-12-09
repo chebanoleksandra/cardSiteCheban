@@ -126,7 +126,7 @@
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     h2 {
@@ -142,20 +142,96 @@
         margin-right: auto;
     }
 
+    #aboutMeP {
+        width: 340px;
+    }
+
     .formInput,
     #message {
         width: 300px;
     }
-    .formText{
+
+    .formText {
         display: block;
         width: 300px;
     }
+
     form {
         width: 300px;
     }
-#myHobbies
 
-{
-    width: 360px
-}
+    #myHobbies {
+        width: 360px
+    }
+
+    .hobbieDiv {
+        margin-left: 20px;
+    }
+
+    #braceletsDiv {
+        width: 210px;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    #aboutMeWrap {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #myPic {
+        width: 300px;
+        height: 300px;
+        border-radius: 25px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    iframe {
+        width: 340px;
+
+    }
+
+    #nameDiv {
+        margin: 0 auto;
+    }
+
+    #quote {
+        text-align: center;
+    }
+
+    body {
+        padding-top: 100px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    .menuButton {
+        display: flex;
+    }
+
+
+    nav {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        z-index: 2;
+        padding-top: 60px;
+        visibility: hidden;
+    }
+
+    a {
+        color: #FFFFE3;
+        background-color: #841111;
+        font-size: 32px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        text-align: right;
+        margin-top: 40px;
+    }
 }

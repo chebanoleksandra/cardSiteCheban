@@ -238,13 +238,13 @@ footer{
 .menuButton {
     display: none; /*should be flex when we need to see it*/
     align-items: center;
-    position: absolute;
+    position: fixed;
     top: 24px;
     right: 40px;
     width: 34px;
     height: 34px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 3;
     transition: top .2s ease-in-out, left .2s ease-in-out;
     
 }
@@ -256,7 +256,7 @@ footer{
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #FFFFE3;
+    background-color: #401008;
     transition-duration: 0.5s;
 }
 
