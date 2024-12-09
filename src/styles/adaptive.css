@@ -21,33 +21,35 @@
     #nameDiv {
         display: block;
     }
-    #mirrorball
-    {
+
+    #mirrorball {
         display: none;
     }
-    #bow
-    {
+
+    #bow {
         display: none;
     }
-    #myHobbies
-    {
+
+    #myHobbies {
         width: 700px;
     }
+
     #contactMe {
         margin-left: auto;
         margin-right: auto;
     }
-    #braceletsDiv
-    {
+
+    #braceletsDiv {
         width: 470px;
         margin-left: 0;
         margin-right: 50px;
     }
-    #braceletsTitle
-    {
+
+    #braceletsTitle {
         width: 470px;
     }
-    body{
+
+    body {
         padding-top: 80px;
     }
 }
@@ -103,35 +105,24 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    #aboutMe {
-        width: 700px;
-        margin: 50px auto;
-    }
-
-    #aboutMeP {
-        width: 600px;
-    }
-
-    .squarePic {
-        width: 180px;
-        height: 180px;
-    }
-}
-
 @media (max-width: 767px) {
     #mirrorball {
         display: none;
     }
 
+    #bow {
+        display: none;
+    }
+
     #aboutMe {
-        width: 90%;
+        width: 340px;
         margin: 20px auto;
     }
 
     .squarePic {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
     }
 
     h1 {
@@ -145,4 +136,26 @@
     p {
         font-size: 16px;
     }
+
+    #contactMe {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formInput,
+    #message {
+        width: 300px;
+    }
+    .formText{
+        display: block;
+        width: 300px;
+    }
+    form {
+        width: 300px;
+    }
+#myHobbies
+
+{
+    width: 360px
+}
 }
